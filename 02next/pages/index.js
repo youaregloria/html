@@ -3,11 +3,14 @@ import AddToCart from "@/components/addToCart";
 import Image from "next/image";
 
 export  default  function  index(){
+    const style={display:"flex"
+
+    }
 
     return(
       <div>
           <Category />
-          <div style={{display:"flex"}}>
+          <div style={style}>
               <div className="product-info-row">
                   <div className="details-gallery">
                       <div className="mySwiper">
